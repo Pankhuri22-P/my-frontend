@@ -1,5 +1,5 @@
 {
-  "family": "frontend-task",
+  "family": "BlueGreenTask",
   "cpu": "256",
   "memory": "512",
   "containerDefinitions": [
