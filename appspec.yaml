@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: pankhuri-pipeline:2
+        TaskDefinition: BlueGreenTask:2
         LoadBalancerInfo:
-          ContainerName: bluegreen-frontend
+          ContainerName: bluegreen
           ContainerPort: 80
