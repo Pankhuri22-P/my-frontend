@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: BlueGreenTask:2
+        TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
           ContainerName: bluegreen
           ContainerPort: 80
